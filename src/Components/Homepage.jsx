@@ -226,6 +226,21 @@ const Homepage = () => {
             </h2>
     </div>
 
+    <div className='flex 2xl:px-[15rem] bg-black text-white p-10'>
+      <div className='w-14 h-14'>
+        <img src={logo} alt="" />
+      </div>
+
+      <div className='ml-auto'>
+        <h2 className='text-lg'>Contact Us</h2>
+        <p className='text-sm'>
+            For any questions or inquiries, please reach out to our team at:
+            <br/>
+            <a href='mailto:africacreve@gmail.com'>africacreve@gmail.com</a>
+        </p>
+      </div>
+    </div>
+
 
       <dialog id="my_modal_3" className="modal">
             <div className="modal-box p-10 pt-5 rounded-lg bg-white lg:max-w-[35rem]">
@@ -273,7 +288,7 @@ const Homepage = () => {
                     </div>
                 </form>
             </div>
-        </dialog>
+      </dialog>
 
 
         <dialog id="my_modal_1" className="modal">
@@ -294,7 +309,7 @@ const Homepage = () => {
                         </Link>
                     </div>
                 </div>
-            </dialog>
+        </dialog>
   </div>
   )
 }
