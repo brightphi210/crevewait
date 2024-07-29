@@ -226,7 +226,7 @@ const Homepage = () => {
             </h2>
     </div>
 
-    <div className='flex 2xl:px-[15rem] bg-black text-white p-10'>
+    <div className='flex lg:flex-row flex-col gap-6  2xl:px-[15rem] xl:px-[10rem] lg:px-[10rem] bg-black text-white p-10'>
       <div className='w-14 h-14'>
         <img src={logo} alt="" />
       </div>
