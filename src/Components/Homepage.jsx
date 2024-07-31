@@ -121,7 +121,7 @@ const Homepage = () => {
            <div className='bg-neutral-100 p-5 rounded-lg' data-aos="fade-up" data-aos-duration="1000">
                 <p className='text-3xl mb-5 flex items-center justify-center h-fit rounded-full p-3 bg-neutral-200 w-fit'><IoCheckmarkDoneCircleOutline /></p>
                 <h2 className='text-2xl pb-5'>Easy Hiring Process</h2>
-                <p className='text-sm'>Hire approved talnets as easy as posible, send request and get your job done.</p>
+                <p className='text-sm'>Hire approved talents as easy as posible, send request and get your job done.</p>
            </div>
         </div>
 
@@ -251,8 +251,8 @@ const Homepage = () => {
 
                 
                 <h2 className='bg-neutral-100 2xl:text-lg xl:text-lg lg:text-lg p-5 rounded-lg text-sm'>
-                    Friendly/Free Platform: Our Plartform provides client opportunities to 
-                    chat directly with creative and send direct request and even calling them to get there job done
+                    Friendly/Free Platform: Our Platform provides client opportunities to 
+                    chat directly with creative and send direct request and even calling them to get their job done
                 </h2>
 
             </div>
@@ -283,7 +283,7 @@ const Homepage = () => {
                     <div>
                         <h2 className='lg:text-3xl text-xl'>Use <span className='text-green-800'>Creve</span> before others.</h2>
                         <p className='lg:text-sm text-xs pt-2'>
-                            Be the first to experience the future of un-bia gig ecosystem. 
+                            Be the first to experience the future of freelancing with creve. 
                             <br className='lg:block hidden'/> Sign up for our waitlist and get exclusive access when we launch.
                         </p>
                     </div>
