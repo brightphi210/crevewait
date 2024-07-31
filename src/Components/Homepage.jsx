@@ -9,6 +9,9 @@ import imageThree from '../Images/image3.png'
 import { FaArrowRight, FaLinkedin, FaXTwitter } from 'react-icons/fa6'
 import { Link } from 'react-router-dom'
 import successImg from '../Images/gif1.gif'
+import { GoTasklist } from 'react-icons/go'
+import { PiHandshakeLight } from 'react-icons/pi'
+import { IoCheckmarkDoneCircleOutline, IoFlashOutline } from 'react-icons/io5'
 
 const Homepage = () => {
   return (
@@ -60,28 +63,49 @@ const Homepage = () => {
     </div>
 
 
+    <h2 className='text-center 2xl:text-4xl text-2xl pb-4 pt-10' data-aos="fade-up" data-aos-duration="1000">A whole world of  <br /> <span className='mycolor font-bold'>talent</span> at your fingertips</h2>
+        <div className='flex lg:py-10 py-5 2xl:grid 2xl:grid-cols-3 rounded-2xl xl:grid xl:grid-cols-3 lg:grid lg:grid-cols-2 flex-col lg:px-[10rem] 2xl:px-[15rem] xl:px-[10rem]  justify-between px-5 lg:gap-10 gap-5'>
+           
+           <div className='bg-neutral-100 p-5 rounded-lg' data-aos="fade-up" data-aos-duration="1000">
+                <p className='text-3xl mb-5 flex items-center justify-center h-fit rounded-full p-3 bg-neutral-200 w-fit'><GoTasklist /></p>
+                <h2 className='text-2xl pb-5'>Over 10 categories</h2>
+                <p className='text-sm'>Get results from skilled freelancers from all over the world, for every task, at any price point.</p>
+           </div>
+
+           <div className='bg-neutral-100 p-5 rounded-lg' data-aos="fade-up" data-aos-duration="1000">
+                <p className='text-3xl mb-5 flex items-center justify-center h-fit rounded-full p-3 bg-neutral-200 w-fit'><PiHandshakeLight /></p>
+                <h2 className='text-2xl pb-5'>Quality work done faster</h2>
+                <p className='text-sm'>Filter to find the right freelancers quickly and get great work delivered in no time, every time.</p>
+           </div>
+
+           <div className='bg-neutral-100 p-5 rounded-lg' data-aos="fade-up" data-aos-duration="1000">
+                <p className='text-3xl mb-5 flex items-center justify-center h-fit rounded-full p-3 bg-neutral-200 w-fit'><IoFlashOutline /></p>
+                <h2 className='text-2xl pb-5'>24/7 support system</h2>
+                <p className='text-sm'>Chat with our team to get your questions answered or resolve any issues with your challenges</p>
+           </div>
+
+           <div className='bg-neutral-100 p-5 rounded-lg' data-aos="fade-up" data-aos-duration="1000">
+                <p className='text-3xl mb-5 flex items-center justify-center h-fit rounded-full p-3 bg-neutral-200 w-fit'><IoCheckmarkDoneCircleOutline /></p>
+                <h2 className='text-2xl pb-5'>Easy Hiring Process</h2>
+                <p className='text-sm'>Hire approved talnets as easy as posible, send request and get your job done.</p>
+           </div>
+        </div>
+
+
     <div className='2xl:px-[15rem] xl:px-[10rem] lg:px-[10rem] px-5 lg:pt-20 pt-10' id='about'>
             <p className='border-b border-green-500 pb-2 mb-3 w-fit text-2xl'>About Us</p>
             <h2 className='text-justify 2xl:text-xk xl:text-lg lg:text-lg text-sm'>
                 Creve was born out of a simple idea: to create a 
-                space where talents of all kinds could thrive. Our founders 
-                envisioned a platform that would break down barriers and provide 
+                space where talents of all kinds could thrive. Creve is 
+                a platform that break down barriers and provide 
                 equal opportunities for individuals to showcase their skills and 
                 for clients to discover exceptional talent.
     
                 <br />
                 <br />
-                Our mission is to empower talent by providing the tools and resources they 
-                need to succeed. Whether you are an artist, a developer, a writer, or any 
+                Our mission is to make every skilled person to thrive, 
+                Whether you are an artist, a developer, a writer, or any 
                 other type of professional, Creve is here to support you on your journey. 
-                We believe that by connecting talented individuals with the right opportunities, 
-                we can drive innovation and creativity across industries.
-                <br />
-                <br />
-                At Creve, we are constantly evolving to meet the needs of our community. 
-                We listen to feedback and continuously improve our platform to ensure it 
-                remains the best place for talent and clients to connect. Join us and be 
-                a part of a community where your skills and potential are truly valued.
             </h2>
 
             <div className='lg:py-20 py-10'>
@@ -180,11 +204,10 @@ const Homepage = () => {
 
 
             <p className='border-b border-green-500 pb-2 mb-3 w-fit text-2xl pt-10' id='why'>Why Choose Us?</p>
-            <div className='flex lg:flex-row flex-col gap-5 pt-5'>
+            <div className='flex lg:flex-row flex-col gap-5 py-5 pb-10'>
                 <h2 className='bg-neutral-100 2xl:text-lg xl:text-lg lg:text-lg p-5 rounded-lg text-sm'>
-                    Diverse Opportunities: Whether you're 
-                    working with code or with your hands, 
-                    find projects that match your skills and interests.
+                    Diverse Opportunities: 
+                    Creve offers a diverse range of opportunities to every creative.
                 </h2>
 
                 <h2 className='bg-neutral-100 2xl:text-lg xl:text-lg lg:text-lg p-5 rounded-lg text-sm'>
@@ -195,51 +218,24 @@ const Homepage = () => {
 
                 
                 <h2 className='bg-neutral-100 2xl:text-lg xl:text-lg lg:text-lg p-5 rounded-lg text-sm'>
-                    User-Friendly Platform: Our intuitive platform 
-                    makes it easy to showcase your portfolio, #
-                    communicate with clients, and manage your projects.
+                    Friendly/Free Platform: Our Plartform provides client opportunities to 
+                    chat directly with creative and send direct request and even calling them to get there job done
                 </h2>
 
             </div>
+        </div>
 
+        <div className='flex lg:flex-row flex-col gap-6  2xl:px-[15rem] xl:px-[10rem] lg:px-[10rem] bg-black text-white p-10'>
+        <div className='lg:w-20 lg:h-20 w-14 h-14'>
+            <img src={logo} alt="" />
+        </div>
 
-
-            
-            <p className='border-b border-green-500 lg:pt-5 pt-5 pb-2 mb-3 w-fit text-2xl'>For Digital Talents:</p>
-            <h2 className='2xl:text-lg xl:text-lg lg:text-lg text-sm'>
-            
-                Harness the potential of your digital skills and connect 
-                with clients who value your expertise. Whether you are a web developer, 
-                graphic designer, digital marketer, content creator, or any other digital 
-                professional, our platform offers you the chance to showcase your work, 
-                find exciting projects, and grow your career.
-            </h2>
-
-
-            <p className='border-b border-green-500 lg:pt-10 py-10  pb-2 mb-3 w-fit text-2xl'>For Non-Digital Talents:</p>
-            <h2 className='2xl:text-lg xl:text-lg lg:text-lg text-sm pb-20'>
-                We celebrate the art of traditional skills and craftsmanship. 
-                From artisans and musicians to personal trainers and event planners, 
-                our platform provides a space for non-digital professionals to shine. 
-                Connect with clients looking for your unique talents and take your 
-                craft to new heights.
-            </h2>
-    </div>
-
-    <div className='flex lg:flex-row flex-col gap-6  2xl:px-[15rem] xl:px-[10rem] lg:px-[10rem] bg-black text-white p-10'>
-      <div className='w-14 h-14'>
-        <img src={logo} alt="" />
-      </div>
-
-      <div className='ml-auto'>
-        <h2 className='text-lg'>Contact Us</h2>
-        <p className='text-sm'>
-            For any questions or inquiries, please reach out to our team at:
-            <br/>
-            <a href='mailto:africacreve@gmail.com'>africacreve@gmail.com</a>
-        </p>
-      </div>
-    </div>
+        <div className='lg:ml-auto'>
+            <h2 className='text-sm pb-5'>Contact Us</h2>
+            <p className='text-sm pb-2'>For any questions or inquiries, contact:</p>
+            <a href='mailto:africacreve@gmail.com' className='text-blue-300 underline'><p>africacreve@gmail.com</p></a>
+        </div>
+        </div>
 
 
       <dialog id="my_modal_3" className="modal">
