@@ -24,7 +24,7 @@ const Homepage = () => {
         <ul className='flex ml-auto gap-3 items-center'>
             <a href="#why"><li className='text-sm'>Why Creve</li></a>
             <a href="#about"><li className='text-sm'>About</li></a>
-            <button className='text-sm bg-white border border-neutral-400 text-black px-5 py-2 rounded-full' >Join</button>
+            <button className='text-sm bg-white border border-neutral-400 text-black px-5 py-2 rounded-full' onClick={()=>document.getElementById('my_modal_3').showModal()}>Join</button>
         </ul>
     </div>
 
