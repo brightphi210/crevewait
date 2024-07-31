@@ -301,7 +301,7 @@ const Homepage = () => {
                         <p className='text-center text-xs'>Your details has been recieved join our community</p>
 
                         <Link to={'https://t.me/+nflgbLBXe5xlMjI8'}>
-                            <button className="btn btn-active text-xs btn-neutral w-9/12 justify-center m-auto mt-8 flex items-center gap-4">Join Community <FaArrowRight /></button>
+                            <button className="btn btn-active text-sm btn-neutral w-9/12 justify-center m-auto mt-8 flex items-center gap-4">Join Community <FaArrowRight /></button>
                         </Link>
                     </div>
                 </div>
